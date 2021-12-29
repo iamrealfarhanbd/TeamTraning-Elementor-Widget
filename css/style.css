@@ -1,0 +1,63 @@
+/* #two,
+#three,
+#four,
+#five,
+#six {
+  display: none;
+} */
+#teamTraing-Fa .col-md-4:nth-child(n + 1) {
+  display: none;
+}
+
+#teamTraing-Fa #one {
+  display: block;
+}
+#teamTraing-Fa table {
+  width: 100%;
+}
+
+#teamTraing-Fa thead tr th {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+  padding: 20px;
+}
+#teamTraing-Fa tbody tr td {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+#teamTraing-Fa tbody tr td {
+  padding: 20px;
+}
+#teamTraing-Fa .active td {
+  background: #ebfbfd;
+  box-shadow: 0px 15px 34px rgb(24 164 150 / 2%);
+  padding: 20px;
+}
+#teamTraing-Fa a.button {
+  background: transparent;
+  border: 1px solid #18a496;
+  box-sizing: border-box;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+@media (min-width: 1024px) {
+  #teamTraing-Fa {
+    display: flex;
+    justify-content: space-between;
+  }
+  .unitItem {
+    width: 32% !important;
+  }
+  .unitPackage {
+    width: 62% !important;
+  }
+}
